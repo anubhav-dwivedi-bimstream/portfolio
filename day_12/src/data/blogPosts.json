@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Getting Started with React Hooks",
+    "excerpt": "A comprehensive guide to understanding and implementing React Hooks in your applications.",
+    "content": "React Hooks revolutionized how we write React components. Before hooks, functional components were limited in their capabilities...",
+    "date": "2025-01-15",
+    "tags": ["React", "JavaScript", "Frontend"],
+    "readTime": "5 min read",
+    "image": "https://via.placeholder.com/800x400"
+  },
+  {
+    "id": 2,
+    "title": "CSS Grid vs Flexbox: When to Use Which",
+    "excerpt": "Understanding the differences between CSS Grid and Flexbox for modern layout design.",
+    "content": "CSS Grid and Flexbox are both powerful layout systems, but they serve different purposes...",
+    "date": "2025-01-10",
+    "tags": ["CSS", "Layout", "Frontend"],
+    "readTime": "7 min read",
+    "image": "https://via.placeholder.com/800x400"
+  },
+  {
+    "id": 3,
+    "title": "Building Accessible Web Applications",
+    "excerpt": "Best practices for creating web applications that are accessible to all users.",
+    "content": "Accessibility is not just a nice-to-have feature, it's essential for creating inclusive web experiences...",
+    "date": "2025-01-05",
+    "tags": ["Accessibility", "HTML", "CSS"],
+    "readTime": "6 min read",
+    "image": "https://via.placeholder.com/800x400"
+  },
+  {
+    "id": 4,
+    "title": "Performance Optimization in React",
+    "excerpt": "Techniques to optimize React application performance and reduce bundle size.",
+    "content": "Performance optimization is crucial for providing a smooth user experience...",
+    "date": "2024-12-28",
+    "tags": ["React", "Performance", "JavaScript"],
+    "readTime": "8 min read",
+    "image": "https://via.placeholder.com/800x400"
+  }
+]

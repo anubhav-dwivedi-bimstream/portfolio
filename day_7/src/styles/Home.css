@@ -1,0 +1,31 @@
+.hero {
+  padding: 120px 2rem 2rem; /* Account for fixed navbar */
+  text-align: center;
+  background-color: #ecf0f1;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+  margin-bottom: 1rem;
+  color: #2c3e50;
+  line-height: 1.2;
+}
+
+.hero h2 {
+  font-size: clamp(1.2rem, 4vw, 1.5rem);
+  color: #34495e;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: #7f8c8d;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}

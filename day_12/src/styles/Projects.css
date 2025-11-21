@@ -1,0 +1,40 @@
+.projects {
+  padding: 120px 2rem 2rem;
+  background-color: #f8f9fa;
+}
+
+.projects-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.projects-hero h1 {
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.projects-hero p {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  color: #7f8c8d;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 100px 1rem 2rem;
+  }
+  
+  .projects-grid {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+}
